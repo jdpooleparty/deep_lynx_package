@@ -30,8 +30,4 @@ DEEP_LYNX_API_SECRET=your_api_secret
 ```
 
 ## Usage
-```python
-from src.run import run_workflow
-result = run_workflow()
-print(result)
-``` 
+python src/run.py
