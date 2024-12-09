@@ -1,0 +1,536 @@
+{
+  "query_params": {
+    "shape": 8,
+    "comp": "V",
+    "timestamp": "2024-12-09T09:58:27.344870"
+  },
+  "product_data": {
+    "data": {
+      "metatypes": {
+        "Product": [
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.87337",
+            "HasP": "88-77",
+            "_record": {
+              "id": "526",
+              "data_source_id": "112",
+              "original_id": "1001",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.24819",
+            "HasP": "88-77",
+            "_record": {
+              "id": "523",
+              "data_source_id": "112",
+              "original_id": "1118",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.07243",
+            "HasP": "48-51",
+            "_record": {
+              "id": "514",
+              "data_source_id": "112",
+              "original_id": "1476",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.52835",
+            "HasP": "88-77",
+            "_record": {
+              "id": "527",
+              "data_source_id": "112",
+              "original_id": "1975",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.96375",
+            "HasP": "88-77",
+            "_record": {
+              "id": "528",
+              "data_source_id": "112",
+              "original_id": "2025",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.89116",
+            "HasP": "88-77",
+            "_record": {
+              "id": "524",
+              "data_source_id": "112",
+              "original_id": "2859",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.24724",
+            "HasP": "88-77",
+            "_record": {
+              "id": "525",
+              "data_source_id": "112",
+              "original_id": "2945",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.6604",
+            "HasP": "48-51",
+            "_record": {
+              "id": "518",
+              "data_source_id": "112",
+              "original_id": "3398",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.56952",
+            "HasP": "88-77",
+            "_record": {
+              "id": "529",
+              "data_source_id": "112",
+              "original_id": "5486",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.39772",
+            "HasP": "88-77",
+            "_record": {
+              "id": "530",
+              "data_source_id": "112",
+              "original_id": "6",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.04092",
+            "HasP": "48-51",
+            "_record": {
+              "id": "516",
+              "data_source_id": "112",
+              "original_id": "627",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.80778",
+            "HasP": "48-51",
+            "_record": {
+              "id": "517",
+              "data_source_id": "112",
+              "original_id": "628",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.14395",
+            "HasP": "48-51",
+            "_record": {
+              "id": "519",
+              "data_source_id": "112",
+              "original_id": "709",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.69356",
+            "HasP": "48-51",
+            "_record": {
+              "id": "513",
+              "data_source_id": "112",
+              "original_id": "7228",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.64006",
+            "HasP": "48-51",
+            "_record": {
+              "id": "515",
+              "data_source_id": "112",
+              "original_id": "7486",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.07095",
+            "HasP": "48-51",
+            "_record": {
+              "id": "521",
+              "data_source_id": "112",
+              "original_id": "8728",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          },
+          {
+            "hasShape": 8,
+            "HasComp": "V",
+            "HasD": "1.12745",
+            "HasP": "88-77",
+            "_record": {
+              "id": "522",
+              "data_source_id": "112",
+              "original_id": "9212",
+              "import_id": "32",
+              "metatype_id": "3076",
+              "metatype_name": "Product",
+              "created_at": "2024-12-09T14:46:23.000Z",
+              "created_by": null,
+              "modified_at": "2024-12-09T14:46:24.243Z",
+              "modified_by": null,
+              "metadata": {
+                "conversions": [
+                  {
+                    "original_value": "8",
+                    "converted_value": 8
+                  }
+                ],
+                "failed_conversions": []
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "lot_data": [
+    {
+      "data": {
+        "metatypes": {
+          "Lot": [
+            {
+              "hasP": "88-77",
+              "HasEtc": "1.37698",
+              "HasB": "1.93262",
+              "HasEuC": "1.14623",
+              "_record": {
+                "id": "557",
+                "data_source_id": "112",
+                "original_id": "88-77",
+                "import_id": "33",
+                "metatype_id": "3077",
+                "metatype_name": "Lot",
+                "created_at": "2024-12-09T14:47:35.000Z",
+                "created_by": null,
+                "modified_at": "2024-12-09T14:47:36.211Z",
+                "modified_by": null,
+                "metadata": {
+                  "conversions": [],
+                  "failed_conversions": []
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "data": {
+        "metatypes": {
+          "Lot": [
+            {
+              "hasP": "48-51",
+              "HasEtc": "1.17247",
+              "HasB": "1.32735",
+              "HasEuC": "1.41294",
+              "_record": {
+                "id": "556",
+                "data_source_id": "112",
+                "original_id": "48-51",
+                "import_id": "33",
+                "metatype_id": "3077",
+                "metatype_name": "Lot",
+                "created_at": "2024-12-09T14:47:35.000Z",
+                "created_by": null,
+                "modified_at": "2024-12-09T14:47:36.211Z",
+                "modified_by": null,
+                "metadata": {
+                  "conversions": [],
+                  "failed_conversions": []
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -70,33 +70,67 @@ def calculate_averages(lots: List[LotStats]) -> Dict:
 
 def process_results(product_result: Dict, lot_results: List[Dict]) -> Dict:
     """Process query results and generate statistics."""
-    # Extract products
-    products = product_result.get('data', {}).get('metatypes', {}).get('Product', [])
-    logger.info(f"Processing {len(products)} products")
-    
-    # Process lots
-    lots = []
-    for lot_result in lot_results:
-        lot_data = lot_result.get('data', {}).get('metatypes', {}).get('Lot', [])
-        if lot_data:
-            lot = LotStats.from_lot_data(lot_data[0])
-            lots.append(lot)
-            logger.info(f"Processed lot {lot.lot_id} - Has values: {lot.has_values()}")
-    
-    # Calculate statistics
-    stats = calculate_averages(lots)
-    
-    # Prepare output
-    return {
-        'products': len(products),
-        'lots': {
-            'total': stats['total_lots'],
-            'with_values': stats['lots_with_values']
-        },
-        'averages': {
-            'HasEtc': stats['HasEtc_avg'],
-            'HasB': stats['HasB_avg'],
-            'HasEuC': stats['HasEuC_avg']
-        },
-        'lot_details': [lot.to_dict() for lot in lots]
-    } 
+    try:
+        # Extract products
+        products = product_result.get('data', {}).get('metatypes', {}).get('Product', [])
+        logger.info(f"Processing {len(products)} products")
+        
+        # Calculate Product HasD average and collect details
+        has_d_sum = 0.0
+        has_d_count = 0
+        product_details = []
+        
+        for product in products:
+            # Collect product details
+            product_details.append({
+                'id': product.get('_record', {}).get('original_id', 'Unknown'),
+                'hasShape': product.get('hasShape'),
+                'HasComp': product.get('HasComp'),
+                'HasD': product.get('HasD'),
+                'HasP': product.get('HasP')
+            })
+            
+            # Calculate HasD average
+            if product.get('HasD'):
+                try:
+                    has_d_sum += float(product['HasD'])
+                    has_d_count += 1
+                except (ValueError, TypeError) as e:
+                    logger.warning(f"Could not convert HasD value '{product['HasD']}' to float: {e}")
+        
+        has_d_avg = has_d_sum / has_d_count if has_d_count > 0 else None
+        logger.info(f"Average HasD across {has_d_count} products: {has_d_avg}")
+        
+        # Process lots
+        lots = []
+        for lot_result in lot_results:
+            lot_data = lot_result.get('data', {}).get('metatypes', {}).get('Lot', [])
+            if lot_data and len(lot_data) > 0:
+                lot = LotStats.from_lot_data(lot_data[0])
+                lots.append(lot)
+                logger.info(f"Processed lot {lot.lot_id} - Has values: {lot.has_values()}")
+        
+        # Calculate statistics
+        stats = calculate_averages(lots)
+        
+        # Prepare output
+        return {
+            'products': len(products),
+            'product_details': product_details,
+            'product_averages': {
+                'HasD': has_d_avg
+            },
+            'lots': {
+                'total': stats['total_lots'],
+                'with_values': stats['lots_with_values']
+            },
+            'lot_averages': {
+                'HasEtc': stats['HasEtc_avg'],
+                'HasB': stats['HasB_avg'],
+                'HasEuC': stats['HasEuC_avg']
+            },
+            'lot_details': [lot.to_dict() for lot in lots]
+        }
+    except Exception as e:
+        logger.error(f"Error in process_results: {str(e)}")
+        raise
